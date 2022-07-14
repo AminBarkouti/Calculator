@@ -1,0 +1,59 @@
+<!doctype html>
+<HTML lang="en">
+    <HEAD>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <TITLE> project </TITLE>
+    </HEAD>
+
+    <BODY>
+        
+        <div class="container">
+           
+            <div class="result">
+                <input type="text" placeholder="0" id="text">
+            </div>
+
+            <div class="buttons">
+                <div class="row">
+                    <input type="button" value="C" id="c">
+                    <input type="button" onclick="del()" value="DEL">
+                    <input type="button" onclick="display('%')" value="%">
+                    <input type="button" onclick="display('/')" value="/">
+
+                </div>
+                <div class="row">
+                    <input type="button" onclick="display('7')" value="7" id="7">
+                    <input type="button" onclick="display('8')" value="8" id="8">
+                    <input type="button" onclick="display('9')" value="9" id="btn">
+                    <input type="button" onclick="display('*')" value="✖" id="btn">
+
+                </div>
+                <div class="row">
+                    <input type="button" onclick="display('4')" value="4">
+                    <input type="button" onclick="display('5')" value="5">
+                    <input type="button" onclick="display('6')" value="6">
+                    <input type="button" onclick="display('-')" value="-">
+
+                </div>
+                <div class="row">
+                    <input type="button" onclick="display('1')" value="1">
+                    <input type="button" onclick="display('2')" value="2">
+                    <input type="button" onclick="display('3')" value="3">
+                    <input type="button" onclick="display('+')" value="+">
+
+                </div>
+                <div class="row">
+                    <input type="button" onclick="display('.')" value=".">
+                    <input type="button" onclick="display('0')" value="0">
+                    <input type="button" onclick="calc()" value="=" id="egale">
+
+                </div>
+            </div>
+
+        </div>
+
+
+    <script src="script.js"></script>
+    </BODY>
+</HTML>
